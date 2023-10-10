@@ -1,0 +1,5 @@
+@mixin contcards($tempcol, $justcont) {
+    display: grid;
+    grid-template-columns: $tempcol;
+    justify-content: $justcont;
+}

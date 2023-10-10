@@ -1,0 +1,35 @@
+.cards {
+    margin: 16px;
+    width: 400px;
+    padding: 10px;
+    background-color: #f5efe7;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    & div img {
+        width: 100%;
+    }
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 3px 5px 10px grey;
+    }
+}
+
+.section-img {
+    border-radius: 20px;
+}
+
+.container-cards {
+    @include contcards(repeat(3, 1fr), space-evenly)
+}
+
+.container-cards2 {
+    @extend .container-cards;
+}
+
+.container-cards3 {
+    @include contcards(repeat(4, 1fr), space-evenly);
+}
+
+.container-cards4 {
+    @extend .container-cards3;
+}

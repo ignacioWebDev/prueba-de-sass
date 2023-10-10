@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pacifico", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Silkscreen", cursive;
+}
+
+body {
+  background-color: #d8c4b6 !important;
+}
+
+h1 {
+  font-size: 3.125rem;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.7490196078) !important;
+}
+
+nav {
+  background-color: #4f709c;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+}
+
+nav a {
+  color: #f5efe7 !important;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.div-grid-footer {
+  display: grid;
+  grid-template-areas: "direccion direccion social . newsletter";
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: #4f709c;
+  padding: 16px;
+  width: 100%;
+}
+footer p, footer h3 {
+  color: #f5efe7;
+}
+footer button {
+  height: 28px;
+  padding: 4px !important;
+}
+footer input {
+  padding: 4px;
+  border-radius: 3px;
+}
+footer fieldset {
+  display: inline;
+  border-radius: 0.625rem;
+  padding: 0.3125rem;
+}
+
+.div-direccion {
+  grid-area: direccion;
+}
+
+.div-social {
+  grid-area: social;
+}
+
+.div-newsletter {
+  grid-area: newsletter;
+}
+
+.div-social-flex {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-input {
+  display: block;
+  margin-left: 32px;
+}
+
+.section-label {
+  margin-left: 32px;
+}
+
+.container-marcas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: none;
+  justify-items: center;
+}
+
+.cards {
+  margin: 16px;
+  width: 400px;
+  padding: 10px;
+  background-color: #f5efe7;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+.cards div img {
+  width: 100%;
+}
+.cards:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 5px 10px grey;
+}
+
+.section-img {
+  border-radius: 20px;
+}
+
+.container-cards, .container-cards2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+}
+
+.container-cards3, .container-cards4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=style.css.map */
